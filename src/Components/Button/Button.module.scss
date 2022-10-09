@@ -1,0 +1,17 @@
+.button {
+    padding: 0.1875rem 3.1875rem;
+
+    border: 0.0875rem solid var(--blue);
+    background: var(--white);
+    border-radius: 3.4375rem;
+
+    color: var(--blue);
+    font-size: 1.125rem;
+    line-height: 3.75rem;
+    font-weight: var(--font-weight-bold);
+
+    overflow: overlay;
+    &:hover {
+        cursor: pointer;
+    }
+}

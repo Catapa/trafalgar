@@ -1,0 +1,40 @@
+.logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 2.5625rem;
+    height: 2.5625rem;
+    border: 1px solid var(--blue);
+}
+
+.color {
+    background-color: var(--blue);
+}
+.logo_contrast {
+    background-color: var(--white) !important;
+    color: var(--blue) !important;
+}
+.text_contrast {
+    color: var(--white) !important;
+}
+.symbol_text {
+    color: var(--white);
+    font-size: 1.625rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 2.0625rem;
+}
+
+.name_text {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.875rem;
+    color: var(--dark-gray);
+    margin-left: 0.75rem;
+}

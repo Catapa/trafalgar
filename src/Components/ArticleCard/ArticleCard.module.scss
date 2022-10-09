@@ -1,0 +1,43 @@
+.card_container {
+    //width: 21.875rem;
+    height: 32rem;
+    background-color: var(--white);
+    box-shadow: 0.625rem 2.5rem 3.125rem rgba(229, 233, 246, 0.4);
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 4.5rem;
+}
+.thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.text {
+    padding: 2rem;
+}
+.title {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--black);
+}
+.description {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: var(--font-weight-light);
+    color: var(--gray);
+}
+.link {
+    font-size: 1.0625rem;
+    line-height: 1.75rem;
+    color: var(--blue);
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
+}
+.arrow {
+    width: 0.5625rem;
+    height: 0.5625rem;;
+}

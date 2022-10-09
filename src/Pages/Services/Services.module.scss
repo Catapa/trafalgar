@@ -1,0 +1,19 @@
+.services_section {
+    text-align: center;
+}
+.description {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: center;
+    color: var(--gray);
+    font-weight: var(--font-weight-light);
+    margin-top: 2rem;
+}
+.service_cards_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2.25rem;
+    row-gap: 2.25rem;
+    margin-bottom: 4.3125rem;
+}
